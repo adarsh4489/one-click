@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body{
+    background: rgb(208, 204, 174);
     padding: 20px 20px 0px 20px;
     font-family: sans-serif;
 }
@@ -36,6 +37,17 @@ body{
 .card{
     display: inline-block;
     margin-top: 2%;
-    margin-left:3% ;
-    margin-right:3%;
+   
+    margin: left 4% ;
+    margin-right:4%;
+    background: rgb(57, 54, 54);
+    color: white;
+}
+.container{
+    margin-top: 2%;
+height: 15%;
+}
+.ending{
+    color: white;
+    
 }
