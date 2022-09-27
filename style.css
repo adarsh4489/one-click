@@ -11,11 +11,16 @@ body{
 .container{
     list-style: none;
 }
+.navbar ul{
+    margin: 0px 0px 0px 50px;
+}
+.navbar li{
+    float: left;
+}
 .navbar li a{
     font-weight: bold;
     display: block;
     padding: 10px 50px;
-    
 }
 .navbar li a:hover{
     color: black;
@@ -23,7 +28,7 @@ body{
     cursor: pointer;
 }
 .img-fluid{
-    padding: 20px 0px 0px 10px;
+    padding: 0px 0px 0px 30px;
 }
 .dropdown-menu{
     color: white;
@@ -34,19 +39,19 @@ body{
     background-color: white;
     font-weight: bold;
 }
+.container{
+    margin-top: 2%;
+    height: 15%;
+}
 .card{
     display: inline-block;
     margin-top: 2%;
-   
     margin: left 4% ;
     margin-right:4%;
     background: rgb(57, 54, 54);
     color: white;
 }
-.container{
-    margin-top: 2%;
-height: 15%;
-}
+
 .ending{
     color: white;
     
