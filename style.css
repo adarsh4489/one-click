@@ -12,6 +12,7 @@ body{
     list-style: none;
 }
 .navbar ul{
+    
     margin: 0px 0px 0px 50px;
 }
 .navbar li{
@@ -46,8 +47,7 @@ body{
 .card{
     display: inline-block;
     margin-top: 2%;
-    margin: left 4% ;
-    margin-right:4%;
+    margin-right:3%;
     background: rgb(57, 54, 54);
     color: white;
 }
