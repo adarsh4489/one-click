@@ -11,6 +11,10 @@ body{
 .container{
     list-style: none;
 }
+.logo{
+    height: 3em;
+    width: 5em;
+}
 .navbar ul{
     
     margin: 0px 0px 0px 50px;
