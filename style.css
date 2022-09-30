@@ -46,7 +46,6 @@ body{
 }
 .container{
     margin-top: 2%;
-    height: 15%;
 }
 .card{
     display: inline-block;
@@ -55,8 +54,6 @@ body{
     background: rgb(57, 54, 54);
     color: white;
 }
-
 .ending{
-    color: white;
-    
+    color: white;    
 }
