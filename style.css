@@ -46,17 +46,14 @@ body{
 }
 .container{
     margin-top: 2%;
-    height: 15%;
 }
 .card{
     display: inline-block;
     margin-top: 2%;
-    margin-right:3%;
+    margin:3%;
     background: rgb(57, 54, 54);
     color: white;
 }
-
 .ending{
-    color: white;
-    
+    color: white;    
 }
