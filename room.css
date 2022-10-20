@@ -10,7 +10,7 @@ border-radius: 1em;
 }
 .catalog-image:hover{
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .catalog-text{
 font-weight: 600;
