@@ -1,0 +1,39 @@
+.catalog{
+    background: rgb(195, 187, 203);
+    border-radius: 2em;
+   
+}
+.catalog-image{
+    margin-left: 10em;
+height: 20em;
+border-radius: 1em;
+}
+.catalog-image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.catalog-text{
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.catalog-button{
+    display: flex;
+   margin: 2em;
+
+}
+.button{
+    border-radius: 1em;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: rgb(32, 32, 32);
+    color: antiquewhite;
+    transform: scale(1.2);
+    text-transform: capitalize;
+}
+.aside
+{
+    text-align: center;
+    
+}

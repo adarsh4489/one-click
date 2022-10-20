@@ -1,11 +1,10 @@
 *{
-  margin: 0px;
-  padding: 0px;
+ 
   box-sizing: border-box;
 }
-body{
-       
-    background:linear-gradient(120deg,#2980b9,#8e44ad);
+body{       
+    /* background:linear-gradient(120deg,#2980b9,#8e44ad;          */
+    background:linear-gradient(120deg,#7696ab,#97839f);
     font-family: sans-serif;
     padding: 20px 20px 20;
 }
@@ -34,7 +33,7 @@ body{
     border-radius: 2em;
 }
 .img-fluid{
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 0px;
    
 }
 .dropdown-menu{
@@ -42,10 +41,11 @@ body{
     background-color: rgb(48, 42, 42);
 }
 .btn{
-    color: rgb(53, 50, 50);
+    color: rgb(112, 85, 85);
     background-color: white;
     font-weight: bold;
 }
+
 .container{
     margin-top: 2%;
 }
@@ -53,7 +53,7 @@ body{
     display: inline-block;
     margin-top: 2%;
     margin:3%;
-    background: rgb(57, 54, 54);
+    background: rgb(84, 116, 136);
     color: white;
 }
 .ending{
@@ -62,4 +62,7 @@ body{
 .services{
     text-align: center;
     justify-content: center
+}
+.services-links{
+    
 }
