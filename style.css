@@ -49,6 +49,10 @@ body{
 .container{
     margin-top: 2%;
 }
+.card-img-top:hover{
+    opacity: .7;
+    
+}
 .card{
     display: inline-block;
     margin-top: 2%;
