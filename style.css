@@ -1,12 +1,13 @@
 *{
- 
   box-sizing: border-box;
 }
-body{       
+body{    
     /* background:linear-gradient(120deg,#2980b9,#8e44ad;          */
-    background:linear-gradient(120deg,#7696ab,#97839f);
-    font-family: sans-serif;
-    padding: 20px 20px 20;
+    /* background:linear-gradient(120deg,#7696ab,#97839f); */
+    background-color: lavender;
+    font-family: serif;
+    font-size: 1em;
+    padding: 0% 1% 0% 1%;
 }
 .container{
     list-style: none;
@@ -41,32 +42,33 @@ body{
     background-color: rgb(48, 42, 42);
 }
 .btn{
-    color: rgb(112, 85, 85);
+    color: black;
     background-color: white;
     font-weight: bold;
 }
-
-.container{
-    margin-top: 2%;
+.boxcontainer{
+    margin: 1% 1% 1% 1%;
+  
 }
 .card-img-top:hover{
-    opacity: .7;
-    
+    opacity: .7;  
 }
 .card{
     display: inline-block;
-    margin-top: 2%;
-    margin:3%;
+    margin: 4%;
     background: rgb(84, 116, 136);
     color: white;
 }
-.ending{
-    color: white;    
-}
-.services{
-    text-align: center;
-    justify-content: center
+.services{    
+
 }
 .services-links{
     
+}    
+.button{ font-size: 1.2em;
+    margin-bottom: 3%;
+    color:black;
+    background-color:darkgrey;
+    border-radius: 30px;
 }
+
