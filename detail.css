@@ -1,10 +1,9 @@
-.catalog{
-    background: rgb(195, 187, 203);
+.catalog{color: crimson;
+background:lavender;
     border-radius: 2em;
-   padding: 30px 20px 30px 20px;
+    padding: 25px 0px 0px 0px;
 }
 .catalog-image{
-    margin-left: 10em;
 height: 20em;
 border-radius: 1em;
 }
@@ -13,10 +12,9 @@ border-radius: 1em;
     transform: scale(1.1);
 }
 .catalog-text{
-font-weight: 600;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: large;
 }
-
 .catalog-button{
     display: flex;
    margin: 2em;
@@ -27,7 +25,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .button:hover{
     /* background-color: rgb(32, 32, 32); */
     color: white;
-    background: rgb(84, 116, 136);
+    background: rgb(86, 119, 138);
     /* transform: scale(1.2);
     text-transform: capitalize; */
 }
+.thali{
+    margin-top: 50px;
+}
+
