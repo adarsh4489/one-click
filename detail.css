@@ -17,15 +17,17 @@ font-size: large;
 }
 .catalog-button{
     display: flex;
+    color: blue;
    margin: 2em;
 }
 .button{   
     font-weight: 600;
+    background-color: black;
 }
 .button:hover{
     /* background-color: rgb(32, 32, 32); */
-    color: white;
-    background: rgb(86, 119, 138);
+    /* color: white;
+    background: rgb(118, 133, 142); */
     /* transform: scale(1.2);
     text-transform: capitalize; */
 }
