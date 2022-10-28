@@ -52,20 +52,19 @@ background-color: whitesmoke;
   
 }
 .card-img-top:hover{
-    opacity: .7;  
+    opacity: .7; 
+}
+.card:hover{
+    transform: scale(1.1); 
+
 }
 .card{
     display: inline-block;
-    margin: 4%;
+    margin: 3%;
     background: rgb(84, 116, 136);
     color: white;
 }
-.services{    
-
-}
-.services-links{
-    
-}    
+   
 .button{ font-size: 1.2em;
     margin-bottom: 3%;
     color:black;
