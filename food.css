@@ -1,0 +1,22 @@
+.tiffin{
+color:crimson;
+}
+.main{
+    padding: 20px 20px 0px 20px;
+}
+.head{
+    padding: 20px 100px 20px 100px;
+}
+.cards{
+    display: inline-block;
+    padding: 20px;
+   margin: 20px 30px 10px 30px;
+    margin-bottom: 70px;
+    /* background-color:whitesmoke;  */
+       background-color: lavender;
+    cursor: pointer; 
+ }
+ .img-fluid:hover
+{
+    opacity: 0.8;
+}
