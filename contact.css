@@ -1,0 +1,56 @@
+.body{
+    background-color: rgb(250, 243, 236);
+}
+.head{
+   display: flex;
+   background-color: rgb(255, 237, 220);
+   margin-top: 0%;
+
+}
+.head-cont{
+    font-size: 2rem;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1rem;
+}
+.icn{
+    padding-top: 1.5%;
+    padding-left: 1%;
+    font-size: 1.5rem;
+}
+.img1{
+    margin-top: 1%;
+   display: flex;
+   justify-content: center;
+    
+}
+.mid
+{
+    display: flex;
+    justify-content: space-around;
+}
+.addres-cont{
+    margin-top: 4rem;
+}
+.addres{
+    width: 14rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gmail{
+    padding-top:1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.any{
+    justify-content: center;
+}
+.q2{
+    display: flex;
+   
+}
+.btn{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 3xl;
+}
