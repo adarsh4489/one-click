@@ -2,13 +2,10 @@
   box-sizing: border-box;
 }
 body{    
-    /* background:linear-gradient(120deg,#2980b9,#8e44ad;          */
-    /* background:linear-gradient(120deg,#7696ab,#97839f); */
-    background-color: lavender;
-/* background-color: whitesmoke; */
+    
     font-family: serif;
     font-size: 1em;
-    /* padding: 0% 1% 0% 1%; */
+   
 }
 .container{
     list-style: none;
@@ -29,26 +26,27 @@ body{
     padding: 10px 50px;
 }
 .navbar li a:hover{
-    color: rgb(0, 0, 0);
-    background-color:white;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
     cursor: pointer;
     border-radius: 2em;
 }
 
 .dropdown-menu{
-    color: white;
-    background-color: rgb(48, 42, 42);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .btn{
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-weight: bold;
 }
-.boxcontainer{
-  
+.btn :hover{
+    color:black;
+    background-color: white;
 }
 .card-img-top:hover{
-    opacity: .7; 
+    opacity: .8; 
 }
 .card:hover{
     transform: scale(1.1); 
@@ -57,8 +55,9 @@ body{
 .card{
     display: inline-block;
     margin: 3%;
-    background: rgb(84, 116, 136);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: cursive;
 }
    
 .button{ font-size: 1.2em;
