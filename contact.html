@@ -28,26 +28,84 @@
                 Bellandur, Bangalore-09</address>
                 <p class="gmail">Contact: oneclick62@gmail.com</p>
         </div>
-        <div>
+        <div class="form">
             <h1 class="any">Any Other Queries?</h1>
             <h3>Full Name</h3>
-            <input text="" placeholder="Name">
+            <input text="" placeholder="Name" style="height:35px;font-size:14pt; width:100%">
             <div class="q2">
                 <div>
                     <h3>Email</h3>
-                    <input email="" placeholder="xyz@gmail.com">
+                    <input email="" style="height:25px;font-size:14pt;">
                 </div>
-                <div>
+                <div class="phonenumber">
                     <h3>Phone Number</h3>
-                    <input number="" placeholder="565...">
+                    <input number="" style="height:25px;font-size:14pt;">
                 </div>
             </div>
             <h3>Message</h3>
-            <input textarea="">
-            <div class="btn"> 
-                <button>Submit</button>
+            <input textarea="" style="height:75px;font-size:14pt; width:100%">
+            <div class="container">
+                <button id="btn">
+                    <p id="btnText">Submit</p>
+                    <div class="check-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                            <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                        </svg>
+                    </div>
+                </button>
             </div>
+            <script type="text/javascript">
+                const btn = document.querySelector("#btn");
+                const btnText = document.querySelector("#btnText");
+        
+                btn.onclick = () => {
+                    btnText.innerHTML = "Thanks";
+                    btn.classList.add("active");
+                };
+            </script>
 </div>
     </div>
+    <!--fotter-->
+    <footer class="fott">
+        <div class="container">
+            <div  class="row">
+                <div class="col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Register Live or Push</a></li>
+                        <li><a href="#">About Ableton</a></li>
+                        <li><a href="#">jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Education</h4>
+                    <ul>
+                        <li><a>Offer For Student</a></li>
+                        <li><a>Offer For Teacher</a></li>
+                        <li><a>Offer For experience</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>ONLINE SHOP</h4>
+                    <ul>
+                        <li><a>Watch</a></li>
+                        <li><a>Bag</a></li>
+                        <li><a>Shoes</a></li>
+                        <li><a>Dress</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a>FAQ</a></li>
+                        <li><a>Shipping<c/a></li>
+                        <li><a>Returns</a></li>
+                        <li><a>order Status</a></li>
+                        <li><a>Payment Options</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

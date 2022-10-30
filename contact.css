@@ -47,10 +47,152 @@
     display: flex;
    
 }
-.btn{
-    width:60%;
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.container{
+      width: 58%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 200px;
+        height: 70px;
+        border: none;
+        outline: none;
+        background: #2f2f2f;
+        color: #fff;
+        font-size: 22px;
+        border-radius: 40px;
+        text-align: center;
+        box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .check-box{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+        right: -40px;
+        opacity: 0;
+    }
+    
+    .check-box svg{
+        width: 40px;
+        margin: 20px;
+    }
+    
+    svg path{
+        stroke-width: 3;
+        stroke: #fff;
+        stroke-dasharray: 34;
+        stroke-dashoffset: 34;
+        stroke-linecap: round;
+    }
+    
+    .active{
+        background: #ff2b75;
+        transition: 1s;
+    }
+    
+    .active .check-box{
+        right: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .active p{
+        margin-right: 125px;
+        transition: 1s;
+    }
+    
+    .active svg path{
+        stroke-dashoffset: 0;
+        transition: 1s;
+        transition-delay: 1s;
+    }
+    
+
+
+.form
+{
+    margin-top: 2%;
+}
+.phonenumber{
+    margin-left: 5%;
+}
+.foot{
+    padding-top: 2%;
+}
+.bx-leaf{  
+  background: #3B5998;  
+  color: white;  
+}  
+.container{
+    max-width: 1170px;
+    margin:auto;
+} 
+.row{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.fott{
+    background-color: #24262b;
+    padding: 70px 0;
     margin-top: 5%;
-    font-size: 3xl;
+}
+.col{
+    width: 20%;
+    padding:0 15px;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.col h4{
+ font-size: 18px;
+ color:#ffffff;
+ text-transform: capitalize;
+ margin-bottom: 30px;
+ font-weight: 500;
+ position: relative;
+}
+.col h4::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.col ul li a{
+
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
 }
