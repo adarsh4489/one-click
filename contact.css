@@ -30,7 +30,7 @@
     justify-content: space-around;
 }
 .addres-cont{
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 .addres{
     width: 14rem;
@@ -41,7 +41,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .any{
-    justify-content: center;
+display: flex;
+justify-content: center;
+padding-bottom: 5%;
 }
 .q2{
     display: flex;
