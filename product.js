@@ -18,3 +18,6 @@ smallimg[3].addEventListener("click",function() {
     mainimg[0].src=smallimg[3].src;
 } );
 }
+
+
+
