@@ -39,16 +39,13 @@ margin: 0px;
 .singlepro input:focus {
   outline: none;
 }
-.buy-btn{
-    background-color: gray;
+.buy{
+  background-color: gray;
     border: none;
     padding-top: 8px;
     margin: 5px;
     border-radius: 5px;
     color: white;
-}
-.buy-btn:hover{
-   color: black;
 }
 .img{
   position: absolute;
