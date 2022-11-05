@@ -1,46 +1,43 @@
-
-.singlepro{
-    padding-top: 1%;
+.singlepro {
+  padding-top: 1%;
 }
-.row{
-    background: rgb(229, 228, 228);
-     padding: 3%;
+.row {
+  background: rgb(229, 228, 228);
+  padding: 3%;
 }
-.img-fluid{
-    cursor: pointer;
+.img-fluid {
+  cursor: pointer;
 }
-.small-img-group{
-    display: flex;
-    justify-content: space-between;
-
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
 }
-.small-img-col{
-    flex-basis: 24%;
-    cursor: pointer;
-    
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
 }
 .singlepro select {
-display: block;
-padding: 5px 10px;
+  display: block;
+  padding: 5px 10px;
 }
-.singlepro input{
-    width: 50px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 16px;
-    margin-right: 10px;
+.singlepro input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
 }
-.singlepro input:focus{
-outline: none;
+.singlepro input:focus {
+  outline: none;
 }
-.buy-btn{
-    background-color: gray;
-    border: none;
-    padding-top: 8px;
-    margin: 5px;
-    border-radius: 5px;
-    color: white;
+.buy-btn {
+  background-color: gray;
+  border: none;
+  padding-top: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
 }
-.buy-btn:hover{
-   color: black;
+.buy-btn:hover {
+  color: black;
 }
