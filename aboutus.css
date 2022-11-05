@@ -5,17 +5,24 @@
 body{
     background-color: rgb(231, 228, 221);
 }
-div.top{
+.top{
     height: 150px;
     background: rgb(10, 49, 65);
     margin-top: 0%;
+    display: flex;
+  justify-content: space-between;
+}
+.navimg{
+  display: flex;
+  display: contents;
 }
 .about{
     background: rgb(10, 49, 65);
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 3%;
   color: white;
   font-family:"Times New Roman", Times, serif;
+  display: contents;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -62,5 +69,11 @@ div.top{
   }
   .technimg{
     display: flex;
+  }
+  footer{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(to right ,#00093c,##);
   }
   
