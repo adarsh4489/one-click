@@ -51,8 +51,11 @@ body{
 }
 .card {
   display: inline-block;
-  margin: 3%;
-  background: rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  /* background: rgb(255, 255, 255); */
+  background:silver;
   color: rgb(0, 0, 0);
   font-family: cursive;
 }
