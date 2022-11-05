@@ -4,7 +4,8 @@
 body{    
     font-family: serif;
     font-size: 1em;
-   
+    background-color: rgb(231, 228, 221);
+
 }
 .container{
     list-style: none;

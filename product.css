@@ -33,7 +33,7 @@ padding: 5px 10px;
 .singlepro input:focus{
 outline: none;
 }
-.buy-btn{
+.buy{
     background-color: gray;
     border: none;
     padding-top: 8px;
@@ -41,6 +41,9 @@ outline: none;
     border-radius: 5px;
     color: white;
 }
-.buy-btn:hover{
-   color: black;
+.card{
+    background: rgb(229, 228, 228);
+border:none;
+padding-top: 0px;
+margin: 0px;
 }
