@@ -1,20 +1,23 @@
-.singlepro {
-  padding-top: 1%;
+
+.singlepro{
+    padding-top: 1%;
 }
-.row {
-  background: rgb(229, 228, 228);
-  padding: 3%;
+.row{
+    background: rgb(229, 228, 228);
+     padding: 3%;
 }
 .img-fluid {
   cursor: pointer;
 }
-.small-img-group {
-  display: flex;
-  justify-content: space-between;
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
 }
-.small-img-col {
-  flex-basis: 24%;
-  cursor: pointer;
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    
 }
 .singlepro select {
   display: block;
@@ -30,14 +33,14 @@
 .singlepro input:focus {
   outline: none;
 }
-.buy-btn {
-  background-color: gray;
-  border: none;
-  padding-top: 8px;
-  margin: 5px;
-  border-radius: 5px;
-  color: white;
+.buy-btn{
+    background-color: gray;
+    border: none;
+    padding-top: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
 }
-.buy-btn:hover {
-  color: black;
+.buy-btn:hover{
+   color: black;
 }

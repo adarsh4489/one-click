@@ -5,17 +5,30 @@
 body{
     background-color: rgb(231, 228, 221);
 }
-div.top{
+.top{
     height: 150px;
     background: rgb(10, 49, 65);
     margin-top: 0%;
+    display: flex;
+  justify-content: space-between;
+}
+.aboutus{
+  font-size: 3em;
+  color: white;
+  padding-top: 3.4%;
+  padding-left: 5%;
+}
+.navimg{
+  display: flex;
+  display: contents;
 }
 .about{
     background: rgb(10, 49, 65);
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 3%;
   color: white;
   font-family:"Times New Roman", Times, serif;
+  display: contents;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -32,7 +45,7 @@ div.top{
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  .container {
+  .contain {
     padding: 2px 16px;
     background-color: white;
     
@@ -62,5 +75,55 @@ div.top{
   }
   .technimg{
     display: flex;
+  }
+  footer{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(to right ,#00093c);
+  }
+  body{    
+      font-family: serif;
+      font-size: 1em;
+      background-color: rgb(231, 228, 221);
+  
+  }
+  .container{
+      list-style: none;
+  }
+  .logo{
+      height: 3em;
+      width: 5em;
+  }
+  .navbar ul{  
+      margin: 0px 0px 0px 50px;
+  }
+  .navbar li{
+      float: left;
+  }
+  .navbar li a{
+      font-weight: bold;
+      display: block;
+      padding: 10px 50px;
+  }
+  .navbar li a:hover{
+      color: rgb(255, 255, 255);
+      background-color:rgb(0, 0, 0);
+      cursor: pointer;
+      border-radius: 2em;
+  }
+  
+  .dropdown-menu{
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+  }
+  .btn{
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      font-weight: bold;
+  }
+  .btn :hover{
+      color:black;
+      background-color: white;
   }
   

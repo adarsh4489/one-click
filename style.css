@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: serif;
-  font-size: 1em;
+body{    
+    font-family: serif;
+    font-size: 1em;
+   
 }
 .container {
   list-style: none;
