@@ -32,9 +32,9 @@ window.onload = function () {
 
   smallimg[7].addEventListener("click", function () {
     mainimg[1].src = smallimg[7].src;
-  });
 
-  smallimg[8].addEventListener("click", function () {
-    mainimg[1].src = smallimg[8].src;
+    smallimg[8].addEventListener("click", function () {
+      mainimg[1].src = smallimg[8].src;
+    });
   });
 };
