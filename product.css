@@ -1,37 +1,45 @@
 .row{
-    background:silver;
-     padding-left: 5%;
-     padding-top: 3%;
-     padding-bottom: 2%;
-     border-radius: 10px;
-
+  background:silver;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-radius: 10px;
 }
-.img-fluid{
-    cursor: pointer;
+.img-fluid {
+  cursor: pointer;
 }
 .small-img-group{
     display: flex;
     justify-content: space-between;
+
 }
 .small-img-col{
     flex-basis: 24%;
     cursor: pointer;
+    
 }
 .singlepro select {
-display: block;
-padding: 5px 10px;
+  display: block;
+  padding: 5px 10px;
+  color: white;
 }
-.singlepro input{
-    width: 50px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 16px;
-    margin-right: 10px;
+.card{
+  background:silver;
+  border:none;
+padding-top: 0px;
+margin: 0px;
 }
-.singlepro input:focus{
-outline: none;
+.singlepro input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
 }
-.buy{
+.singlepro input:focus {
+  outline: none;
+}
+.buy-btn{
     background-color: gray;
     border: none;
     padding-top: 8px;
@@ -39,35 +47,31 @@ outline: none;
     border-radius: 5px;
     color: white;
 }
-.card{
-    background:silver;
-border:none;
-padding-top: 0px;
-margin: 0px;
+.buy-btn:hover{
+   color: black;
 }
-
 .img{
-    position: absolute;
-    top: 15em;
-    left: 45em;
-    background: transparent;
+  position: absolute;
+  top: 15em;
+  left: 45em;
+  background: transparent;
 }
 
 .catalog{
-    border-radius: 2em;
-   padding: 30px 20px 30px 20px;
+  border-radius: 2em;
+ padding: 30px 20px 30px 20px;
 }
 .catalog-image{
-    margin-left: 10em;
+  margin-left: 10em;
 height: 20em;
 border-radius: 1em;
 }
 .catalog-image:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .catalog-text{
-    padding-left: 20%;
+  padding-left: 20%;
 font-weight: 600;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
