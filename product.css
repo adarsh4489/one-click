@@ -1,10 +1,9 @@
-
-.singlepro{
-    padding-top: 1%;
-}
 .row{
-    background: rgb(229, 228, 228);
-     padding: 3%;
+  background:silver;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-radius: 10px;
 }
 .img-fluid {
   cursor: pointer;
@@ -22,6 +21,13 @@
 .singlepro select {
   display: block;
   padding: 5px 10px;
+  color: white;
+}
+.card{
+  background:silver;
+  border:none;
+padding-top: 0px;
+margin: 0px;
 }
 .singlepro input {
   width: 50px;
@@ -43,4 +49,29 @@
 }
 .buy-btn:hover{
    color: black;
+}
+.img{
+  position: absolute;
+  top: 15em;
+  left: 45em;
+  background: transparent;
+}
+
+.catalog{
+  border-radius: 2em;
+ padding: 30px 20px 30px 20px;
+}
+.catalog-image{
+  margin-left: 10em;
+height: 20em;
+border-radius: 1em;
+}
+.catalog-image:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.catalog-text{
+  padding-left: 20%;
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }

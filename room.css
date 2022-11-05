@@ -25,9 +25,7 @@
   font-weight: 600;
 }
 .button:hover {
-  /* background-color: rgb(32, 32, 32); */
   color: white;
   background: rgb(84, 116, 136);
-  /* transform: scale(1.2);
-    text-transform: capitalize; */
+
 }
