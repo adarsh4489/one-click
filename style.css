@@ -5,44 +5,74 @@ body{
     font-family: serif;
     font-size: 1em;
     background-color: rgb(231, 228, 221);}
-.container {
-  list-style: none;
+.nav{
+ display: flexbox;
+ gap: 90px;
+ height: 100px;
+ background-color: rgb(1, 38, 59);
+ border-radius: 40px;
+ box-shadow: 4px 9px 7px 9px #706f6f;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin: 1%;
+  animation: 12s myGradient infinite;
+  margin-bottom: 2%;
 }
-.logo {
-  height: 3em;
-  width: 5em;
+.list{
+  display: flex;
+  gap:60px;
 }
-.navbar ul {
-  margin: 0px 0px 0px 50px;
-}
-.navbar li {
-  float: left;
-}
-.navbar li a {
-  font-weight: bold;
-  display: block;
-  padding: 10px 50px;
-}
-.navbar li a:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+.list a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-top: 4.5%;
+  color: azure;
   cursor: pointer;
-  border-radius: 2em;
+}
+.vl {
+  border-left: 4px solid rgb(86, 99, 117);
+  margin-top: 1.5%;
+  height: 50px;
+ 
+}
+.register
+{
+  padding-top: 2%;
+  
 }
 
-.dropdown-menu {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+.btn{
+  background-color: #4c90af; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+ padding-bottom: 5%;
+ padding-top: 5%;
+  font-weight: 400;
+  font-size: 120%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.btn {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  font-weight: bold;
+button:hover{
+  background-color: antiquewhite;
+
 }
-.btn :hover {
-  color: black;
-  background-color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
 .card-img-top:hover {
   opacity: 0.8;
 }
