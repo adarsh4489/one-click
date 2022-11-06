@@ -129,25 +129,6 @@ padding-right: 4%;
       color:black;
       background-color: white;
   }
-
-  .foot{
-    padding-top: 3%;
-  }
-  .bx-leaf{  
-  background: #3B5998;  
-  color: white;  
-  }  
-  .container{
-    max-width: 1170px;
-    margin:auto;
-  } 
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  ul{
-    list-style: none;
-  }
   .fott{
     background-color: #24262b;
     padding: 70px 0;
