@@ -27,6 +27,7 @@ body{
     transform: scale(1.1);
 }
 
+
 .img-fluid:hover {
     opacity: 0.8;
 }
