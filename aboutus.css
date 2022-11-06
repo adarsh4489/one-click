@@ -142,7 +142,11 @@ padding-top: 5%;
   }
   .fott{
     background-color: #24262b;
+<<<<<<< HEAD
     padding: px 0;
+=======
+    /* padding: 70px 0; */
+>>>>>>> d28fac469ffdf73c5fc11102d56ec6206310606a
   }
   .col{
     width: 20%;
