@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(231, 228, 221);
+}
 .tiffin {
     color: crimson;
 }
@@ -16,7 +19,7 @@
     padding: 20px;
     margin: 20px 30px 10px 30px;
     margin-bottom: 70px;
-    background-color: whitesmoke;
+    background:silver;
     cursor: pointer;
 }
 
@@ -27,7 +30,6 @@
 .img-fluid:hover {
     opacity: 0.8;
 }
-
 .img-fluid {
     height: 15em;
     border-radius: 1.5em;
@@ -36,14 +38,10 @@
 .catalog-button {
     padding-top: 1em;
 }
-
 .catalog-button .view {
-    background-color: silver;
+    background-color: rgb(110, 104, 104);
 }
-
 .catalog-button .view:hover {
     background-color: darkgrey;
     color: crimson;
-
-
 }
