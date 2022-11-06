@@ -32,9 +32,69 @@ window.onload = function () {
 
   smallimg[7].addEventListener("click", function () {
     mainimg[1].src = smallimg[7].src;
+  });
 
-    smallimg[8].addEventListener("click", function () {
-      mainimg[1].src = smallimg[8].src;
-    });
+  smallimg[8].addEventListener("click", function () {
+    mainimg[2].src = smallimg[8].src;
+  });
+
+  smallimg[9].addEventListener("click", function () {
+    mainimg[2].src = smallimg[9].src;
+  });
+
+  smallimg[10].addEventListener("click", function () {
+    mainimg[2].src = smallimg[10].src;
+  });
+
+  smallimg[11].addEventListener("click", function () {
+    mainimg[2].src = smallimg[11].src;
+  });
+
+  smallimg[12].addEventListener("click", function () {
+    mainimg[3].src = smallimg[12].src;
+  });
+
+  smallimg[13].addEventListener("click", function () {
+    mainimg[3].src = smallimg[13].src;
+  });
+
+  smallimg[14].addEventListener("click", function () {
+    mainimg[3].src = smallimg[14].src;
+  });
+
+  smallimg[15].addEventListener("click", function () {
+    mainimg[3].src = smallimg[15].src;
+  });
+
+  smallimg[16].addEventListener("click", function () {
+    mainimg[4].src = smallimg[16].src;
+  });
+
+  smallimg[17].addEventListener("click", function () {
+    mainimg[4].src = smallimg[17].src;
+  });
+
+  smallimg[18].addEventListener("click", function () {
+    mainimg[4].src = smallimg[18].src;
+  });
+
+  smallimg[19].addEventListener("click", function () {
+    mainimg[4].src = smallimg[19].src;
+  });
+
+  smallimg[20].addEventListener("click", function () {
+    mainimg[5].src = smallimg[20].src;
+  });
+
+  smallimg[21].addEventListener("click", function () {
+    mainimg[5].src = smallimg[21].src;
+  });
+
+  smallimg[22].addEventListener("click", function () {
+    mainimg[5].src = smallimg[22].src;
+  });
+
+  smallimg[23].addEventListener("click", function () {
+    mainimg[5].src = smallimg[23].src;
   });
 };
