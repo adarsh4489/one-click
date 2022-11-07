@@ -18,26 +18,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="images/logo.png" class="logo" alt="wrong">
 
-  <nav class="head">
-    <div class="nav">
-      <div>
-        <img src="images/logo.png" width="15%" style="margin-top:1%;margin-left: 3%;">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navbar-brand" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="Aboutus.html">About Us</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="navbar-brand nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="true">
+                  Services
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item"href="rooms.html">Rooms</a></li>
+                  <li><a class="dropdown-item" href="food.html">Tiffin Centre</a></li>
+                  <li><a class="dropdown-item" href="shops.html">Local Shops</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <li class="nav-item">
+            <a class="navbar-brand" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form action="login page.html" class="d-flex" role="search">
+          <button class="tan " type="submit">Login/Register</button>
+        </form>
       </div>
-    <div class="list">
-      <a href="index.html">Home</a>
-      <a href="">Services</a>
-      <a href="Aboutus.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
-    </div>
-    <div class="vl"></div>
-    <div class="register">
-      <button class="btn" >Login/Signup</button>
-    </div>
     </div>
   </nav>
+  <br>
 
-  
+  <section class="back" id="back">
+          <div class="backi" style="background: url(images/pexels-tony-schnagl-5588217.jpg) no-repeat;">
+             <div class="contenti">
+                <span>Find everything you need.</span>
+                <h3>Search properties,hotel,near Hospital.</h3>
+             </div>
+          </div>
+    </section>
+ 
+
   <div class="boxcontainer">
     <!-- carousel -->
     <div id="carouselExampledark" class="carousel carousel-dark slide" data-bs-ride="false">
@@ -80,9 +113,18 @@
     </div>
   </div>
 
+  <section class="home" id="home">
 
-  <div class="container text-center">
-    <!-- cards -->
+    <div class="content">
+        <span>New in the Place</span>
+        <h3>Lets Find your daily need products</h3>
+        <a href="#" class="btn">get started</a>
+    </div>
+
+</section>
+
+  <!--<div class="container text-center">
+     cards 
     <div class="card" style="width: 13rem;">
       <img src="images/room.jpg" class="card-img-top" alt="house">
       <div class="card-body">
@@ -91,7 +133,7 @@
         <a href="rooms.html" class="btn btn-dark">More</a>
       </div>
     </div>
-    <!-- cards -->
+    
     <div class="card" style="width: 13rem;">
       <img src="images/thali.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -100,7 +142,7 @@
         <a href="food.html" class="btn btn-dark">More</a>
       </div>
     </div>
-    <!-- cards -->
+    
     <div class="card" style="width: 13rem;">
       <img src="images/store2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -109,7 +151,7 @@
         <a href="shops.html" class="btn btn-dark">More</a>
       </div>
     </div>
-    <!-- cards -->
+    
     <div class="card" style="width: 13rem;">
       <img src="images/bp.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -119,8 +161,48 @@
       </div>
     </div>
   </div>
+-->
+<section class="feature" id="feature">
 
-  <div class="container-fluid text-center">
+  <h1 class="heading" style="color:orangered;">Services</h1>
+  <h3 class="title">see the most featured places</h3>
+  
+  <div class="card-container">
+  
+      <div class="card">
+          <img src="images/mainimg.jpg" alt="" height="10%">
+          <div class="info">
+              <h3>Home</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, minima!</p>
+              <a href="#"><button class="bttn">visit now!</button></a>
+          </div>
+      </div>
+  
+      <div class="card">
+          <img src="images/india-1481504.jpg" alt="">
+          <div class="info">
+              <h3>Resturant/Mesh</h3>
+              
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, minima!</p>
+              <a href="#"><button class="bttn">visit now!</button></a>
+          </div>
+      </div>
+  
+      <div class="card">
+          <img src="images/grocery-store-2619380.jpg" alt="">
+          <div class="info">
+              <h3>Store</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, minima!</p>
+              <a href="#"><button class="bttn">visit now!</button></a>
+          </div>
+      </div>
+      <a href="#" class="more">View more</a>
+  
+  </div>
+  
+  </section>
+  
+ <!-- <div class="container-fluid text-center">
       <h2 class="services"><b>Other Services</b></h2><br>
      <span class=" services-links mx-5">
        <a href="school.html" class="btn btn-dark">Hospital</a>
@@ -134,71 +216,66 @@
      </span>
   </div>
 
- 
-  <footer class="fott" style="margin-top:4%;">
-    <div class="container">
-        <div  class="row">
-          <div class="col1">
-            <img src="images/logo.png" width="40%">
-            <p style="color:rgb(80, 183, 190);" class="blwlogo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veritatis culpa sequi hic quaerat sint nihil pariatur, quisquam, vel, accusantium inventore dolores unde! Sunt reprehenderit temporibus placeat non vero dolor.</p>
+--> 
+<footer class="fott" style="margin-top:2%;">
+  <div class="container">
+      <div  class="row">
+        <div class="col1">
+          <img src="images/logo.png" width="20%">
+          <p style="color:rgb(80, 183, 190);" class="blwlogo">In this project we had mainly focused on frontend part. we had made this project which basically helps those people who visit to a new place and dont know about that place their they face many problems like having accomodation, food, shops hospitals, hotels etc.</p>
+        </div>
+          <div class="col" >
+              <h4>Menu</h4>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Aboutus.html">About us</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="login page.html">login/register</a></li>
+              </ul>
           </div>
-            <div class="col" >
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="#">Register Live or Push</a></li>
-                    <li><a href="#">About Ableton</a></li>
-                    <li><a href="#">jobs</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>Education</h4>
-                <ul>
-                    <li><a>Offer For Student</a></li>
-                    <li><a>Offer For Teacher</a></li>
-                    <li><a>Offer For experience</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>ONLINE SHOP</h4>
-                <ul>
-                    <li><a>Watch</a></li>
-                    <li><a>Bag</a></li>
-                    <li><a>Shoes</a></li>
-                    <li><a>Dress</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>Get Help</h4>
-                <ul>
-                    <li><a>FAQ</a></li>
-                    <li><a>Shipping<c/a></li>
-                    <li><a>Returns</a></li>
-                    <li><a>order Status</a></li>
-                    <li><a>Payment Options</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div>
-      <hr class="new5">
-    </div>
-    <div class="social">
-      <h4>follow us</h4>
-      <div class="social-link" style="text-align:center;">
-          <li><a href="#"><i class="fab fa-facebook-f "></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram "></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        </div>
-    </div>
-</footer>
-<div class="text-center p-3" style="background-color:rgb(17, 54, 54); ">
-  <h3 style="color: white;">© 2020 Copyright:</h3>
-</div>
-
-  
-    
+          <div class="col">
+              <h4> Major services</h4>
+              <ul>
+                  <li><a>Accomodation</a></li>
+                  <li><a>Food services</a></li>
+                  <li><a>Shops</a></li>
+                  
+                  
+              </ul>
+          </div>
+          <div class="col">
+              <h4>Other  Services</h4>
+              <ul>
+                <li><a href="">Bank And ATM</a></li>
+                <li><a href="">Popst office</a></li>
+                <li><a href="hospital.html">Hospital</a></li>
+              </ul>
+          </div>
+          <div class="col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="contact.html">contact us</a></li>
+                  <li><a>FAQ</a></li>
+                  <li><a>Shipping<c/a></li>
+                  <li><a>Payment Options</a></li>
+              </ul>
+          </div>
+      </div>
   </div>
+  <div>
+    <hr class="new5">
+  </div>
+  <div class="social">
+    <div class="social-link" style="text-align:center;">
+        <li><a href="#"><i class="fab fa-facebook-f "></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram "></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      </div>
+  </div>
+  <br>
+</footer>
+
 </body>
 
 </html>
