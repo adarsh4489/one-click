@@ -1,18 +1,16 @@
-body{
-    background-color: rgb(231, 228, 221);
-}
+
 .tiffin {
     color: crimson;
 }
 
 .main {
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 .head {
-    padding: 0px 100px 20px 100px;
+    padding: 0px 100px 0px 100px;
 }
-
+/* 
 .cards {
     border-radius: 2em;
     display: inline-block;
@@ -45,4 +43,4 @@ body{
 .catalog-button .view:hover {
     background-color: darkgrey;
     color: crimson;
-}
+} */
