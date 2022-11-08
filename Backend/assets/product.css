@@ -1,5 +1,6 @@
 body{
   background-color: rgb(231, 228, 221);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .row{
   background:rgb(84, 116, 136);
@@ -42,14 +43,21 @@ margin: 0px;
 .singlepro input:focus {
   outline: none;
 }
-.buy{
-  background-color: gray;
-    border: none;
-    padding-top: 8px;
-    margin: 5px;
+.tan{
+  color: rgb(255, 255, 255);
+  background-color: rgb(2, 105, 131);
+  font-weight: bold;
+  border: none;
+  padding: 8px 10px 8px 10px;
     border-radius: 5px;
-    color: white;
 }
+.tan:hover{
+  color: rgb(2, 105, 131);
+  background: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+}
+
 .img{
   position: absolute;
   top: 15em;
