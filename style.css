@@ -10,7 +10,6 @@ body{
 
   .container{
     list-style: none;
-
 }
 .logo{
     height: 3em;
@@ -246,7 +245,7 @@ img {
 
 
 .feature .card-container .card .info p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color:#eee;
 }
 
