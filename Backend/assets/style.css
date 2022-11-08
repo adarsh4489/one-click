@@ -53,15 +53,7 @@ padding-top: 5%;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
-/* .tan{
-    color: rgb(255, 255, 255);
-    background-color: rgb(2, 105, 131);
-    font-weight: bold;
-}
-.tan:hover{
-    color: rgb(147, 4, 4);
-    background: rgb(255, 255, 255);
-} */
+
 /* .btn{
   color: rgb(255, 255, 255);
   background-color: rgb(2, 105, 131);
@@ -106,16 +98,16 @@ padding-top: 5%;
 }
 */
 .heading{
-  text-align: center;
+  /* text-align: center; */
   padding:.5rem 1rem;
   padding-top: 2rem;
   font-size: 3.5rem;
   color:var(--red);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .title{
-  text-align: center;
+  /* text-align: center; */
   padding:0rem 1rem;
   font-size: 2.5rem;
   color:#666;
@@ -218,6 +210,7 @@ img {
   font-size: 20px;
   padding-left: 20px;
 }
+
 .feature{
   background: #2C3A47;
   text-align: center;
@@ -235,7 +228,7 @@ img {
 }
 
 .feature .card-container .card{
-  height:29rem;
+  height:30rem;
   width:24rem;
   margin:1rem 1rem;
   position: relative;
@@ -246,6 +239,7 @@ img {
   height:100%;
   width:100%;
   object-fit: cover;
+
 }
 
 .feature .card-container .card .info{
@@ -276,9 +270,9 @@ img {
 .bttn{
   width: 10rem;
   background-color:rgb(255, 18, 18);
-  margin:0rem 0;
+  /* margin:0rem 0; */
   color: white;
-  border-radius: 12px;
+  border-radius: 10px;
 
 }
 .feature .card-container .card .info .bttn{

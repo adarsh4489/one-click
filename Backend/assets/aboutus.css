@@ -64,6 +64,7 @@ body{
     margin-bottom: 3%;
     margin-right: 3%;
     margin-top: 3%;
+    cursor: pointer;
   }
   .vl {
     border-left: 3px solid rgb(0, 128, 128);
@@ -72,6 +73,7 @@ body{
   }
   .imagecard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
   }
   
   img {
