@@ -3,9 +3,8 @@ minor project
 Open terminal >
 
 # Run this following Command
-
-pip install pymysql
-pip install django
+- pip install pymysql
+- pip install django
 
 # Requirment
 Python 3 => Link => https://www.python.org/downloads/windows/
