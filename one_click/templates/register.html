@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One click</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/static/register.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="register" style="height: 96vh">
+      <h1 class="text-center">Register</h1>
+
+      <form action="/register" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <label class="form-label" for="name">Full Name</label>
+          <input
+            class="form-control"
+            type="text"
+            id="name"
+            required
+            name="name"
+            placeholder="Bharat Kushwah"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="Username">Username</label>
+          <input
+            class="form-control"
+            type="text"
+            id="username"
+            name="username"
+            required
+            placeholder="bharatk407"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email-id">Email address</label>
+          <input
+            class="form-control"
+            type="email"
+            id="email"
+            required
+            name="email"
+            placeholder="bharatkushwah407@gmail.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <input
+            class="form-control"
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Abcdef@123"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="Number">Phone Number</label>
+          <input
+            class="form-control"
+            type="text"
+            id="phoneno"
+            name="phoneno"
+            required
+            placeholder="1234567891"
+          />
+        </div>
+
+        <input
+          class="btn btn-success w-100"
+          type="submit"
+          required
+          name="action"
+          value="Register"
+        />
+        <br />
+
+        <div class="form-group text-center">{{message}}</div>
+        <!-- <div class="form-group text-center">
+          <h5>Thank you for the Registration</h5>
+    </div> -->
+      </form>
+    </div>
+  </body>
+</html>

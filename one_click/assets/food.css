@@ -1,0 +1,46 @@
+
+.tiffin {
+    color: crimson;
+}
+
+.main {
+    padding: 10px 20px 0px 20px;
+}
+
+.head {
+    padding: 0px 100px 0px 100px;
+}
+/* 
+.cards {
+    border-radius: 2em;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px 30px 10px 30px;
+    margin-bottom: 70px;
+    background:silver;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+
+.img-fluid:hover {
+    opacity: 0.8;
+}
+.img-fluid {
+    height: 15em;
+    border-radius: 1.5em;
+}
+
+.catalog-button {
+    padding-top: 1em;
+}
+.catalog-button .view {
+    background-color: rgb(110, 104, 104);
+}
+.catalog-button .view:hover {
+    background-color: darkgrey;
+    color: crimson;
+} */
