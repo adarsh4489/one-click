@@ -1,14 +1,23 @@
-
 .tiffin {
-    color: crimson;
+    margin-top: 3%;
+    padding: 3%;
+    background:linear-gradient(to  left, #033f41 25%, #469bb2 100%);
+    border-radius: 10px;
+   
 }
 
 .main {
     padding: 10px 20px 0px 20px;
+    color: white;
+}
+.head h5{
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .head {
     padding: 0px 100px 0px 100px;
+   color: white;
 }
 /* 
 .cards {
@@ -19,6 +28,7 @@
     margin-bottom: 70px;
     background:silver;
     cursor: pointer;
+    color: #033f41;
 }
 
 .cards:hover {

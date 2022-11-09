@@ -1,13 +1,14 @@
 body{
-  background-color: rgb(231, 228, 221);
+  background-color: rgb(247, 242, 241);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .row{
-  background:rgb(84, 116, 136);
+  background:linear-gradient(to bottom left, #742733 40%, #FFC39E 100%);
   padding-left: 5%;
   padding-top: 3%;
   padding-bottom: 2%;
   border-radius: 10px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 .img-fluid {
   cursor: pointer;
@@ -28,11 +29,18 @@ body{
   color: white;
 }
 .card{
-  background:silver;
+  background:linear-gradient(to bottom right, #9e3646 40%, #d9788c 100%);
   border:none;
 padding-top: 0px;
 margin: 0px;
+
 }
+.buy{
+  color: white;
+  background-color: rgb(121, 18, 29);
+  border: none;
+}
+
 .singlepro input {
   width: 50px;
   height: 40px;
@@ -80,6 +88,7 @@ border-radius: 1em;
   padding-left: 20%;
 font-weight: 600;
 font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
 }
 
 
