@@ -1,9 +1,9 @@
 body{
-  background-color: rgb(247, 242, 241);
+  background-color: rgb(162, 197, 201);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .row{
-  background:linear-gradient(to bottom left, #742733 40%, #FFC39E 100%);
+  background:linear-gradient(to bottom left, #45868d 40%, #034b4b 100%);
   padding-left: 5%;
   padding-top: 3%;
   padding-bottom: 2%;
@@ -29,7 +29,7 @@ body{
   color: white;
 }
 .card{
-  background:linear-gradient(to bottom right, #9e3646 40%, #d9788c 100%);
+  background:linear-gradient(to bottom right, #368b9edc 40%, #78bed9ca 100%);
   border:none;
 padding-top: 0px;
 margin: 0px;
@@ -39,6 +39,7 @@ margin: 0px;
   color: white;
   background-color: rgb(121, 18, 29);
   border: none;
+  
 }
 
 .singlepro input {
@@ -91,6 +92,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 color:white;
 }
 
+.containeri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-family: sans Poppins;
+  color: #fff;
+  background:linear-gradient(120deg,#3bada1cc,#023930de);
+  padding: 5%;
+  border-radius: 40px;
+  box-shadow: 4px 9px 7px 9px #706f6f;
+ 
+   margin-left:3%;
+   margin-right:3%;
+}
 
 
 

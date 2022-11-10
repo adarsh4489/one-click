@@ -1,9 +1,12 @@
+
 .tiffin {
     margin-top: 3%;
     padding: 3%;
     background:linear-gradient(to  left, #033f41 25%, #469bb2 100%);
     border-radius: 10px;
-   
+  
+    margin-left:2%;
+    margin-right:2%;
 }
 
 .main {
