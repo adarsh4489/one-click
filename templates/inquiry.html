@@ -22,65 +22,39 @@
       crossorigin="anonymous"
     ></script>
 
-    <link href="/static/login.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/booknow.css" />
   </head>
   <body>
-    <div class="login">
-      <h1 class="text-center">Login</h1>
+    <div class="book">
+      <h1 class="text-center">Book Now</h1>
 
-      <form action="/index" method="post">
+      <form action="/booknow" method="post">
         {% csrf_token %}
         <div class="form-group">
-          <label class="form-label" for="email-id">Email address</label>
-          <input
-            class="form-control"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
+          <label class="form-label" for="name">Full Name</label>
+          <input class="form-control" type="text" name="name" id="name" />
         </div>
 
         <div class="form-group">
-          <label class="form-label" for="password">Password</label>
-          <input
-            class="form-control"
-            type="password"
-            id="password"
-            name="password"
-            required
-          />
+          <label class="form-label" for="email">Email Id</label>
+          <input class="form-control" type="email" name="email" id="email" />
         </div>
 
-        <a href="forgot link">Forgot Password</a>
+        <div class="form-group">
+          <label class="form-label" for="number">Phone Number</label>
+          <input class="form-control" type="text" name="number" id="number" />
+        </div>
 
         <input
           class="btn btn-success w-100"
           type="submit"
           name="action"
-          value="Sign-In"
-        />
-        <br />
-        <div class="form-group text-center">{{message}}</div>
-      </form>
-      <form action="/register" method="post">
-        {% csrf_token %}
-        <input
-          class="btn btn-success w-100"
-          type="submit"
-          name="action"
-          value="Register"
+          value="Book"
         />
       </form>
-      <!-- <script type="text/javascript">
-        const btn = document.querySelector("#btn");
-        const btnText = document.querySelector("#btnText");
 
-        btn.onclick = () => {
-            btnText.innerHTML = "Thanks";
-            btn.classList.add("active");
-        };
-    </script> -->
+      <br />
+      <div class="form-group text-center"><h5>{{message}}</h5></div>
     </div>
   </body>
 </html>

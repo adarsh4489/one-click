@@ -341,6 +341,7 @@ img {
   background-color: #24262b;
   padding: 70px 0;
   margin-top: 50%;
+  
 }
 .col{
   width: 20%;
@@ -351,12 +352,13 @@ img {
 }
 .fott{
     background-color: #24262b;
+    padding-top: 0%;
   }
   .col{
     width: 20%;
     padding:0 15px;
     color: aliceblue;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 5%;
   }
   footer{
