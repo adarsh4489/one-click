@@ -26,7 +26,7 @@ urlpatterns = [
      path('login/',register.Login),
      path('index',register.CheckLogin),
      path('contact',api.contact),
-     #path('contactus',database.contactus),
+     path('contactus',database.contactus),
      path('food/',api.tiffin),
      path('aboutus/',api.aboutus),
      path('book/',api.book),

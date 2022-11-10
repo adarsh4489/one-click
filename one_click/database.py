@@ -14,7 +14,7 @@ def contactus(request):
         cmd.execute(query)
         db.commit()
         db.close()
-        return render(request,"index.html")
+        return render(request,"contact.html",{'message':'Thank you for the Contacting us'})
     except Exception as e:
         print("Error:",e)
         return render(request,"login.html")

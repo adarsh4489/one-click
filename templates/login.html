@@ -61,7 +61,7 @@
           value="Sign-In"
         />
         <br />
-        <div class="form-group text-center">{{message}}</div>
+        
       </form>
       <form action="/register" method="post">
         {% csrf_token %}
@@ -71,16 +71,10 @@
           name="action"
           value="Register"
         />
+        <br>
+        <div class="form-group text-center">{{message}}</div>
       </form>
-      <!-- <script type="text/javascript">
-        const btn = document.querySelector("#btn");
-        const btnText = document.querySelector("#btnText");
-
-        btn.onclick = () => {
-            btnText.innerHTML = "Thanks";
-            btn.classList.add("active");
-        };
-    </script> -->
+     
     </div>
   </body>
 </html>
