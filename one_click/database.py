@@ -31,7 +31,7 @@ def booknow(request):
         cmd.execute(query)
         db.commit()
         db.close()
-        return render(request,"booknow.html",{'message':'Thank you for the Registration'})
+        return render(request,"booknow.html",{'message':'Thank you for Booking'})
     except Exception as e:
         print("Error:",e)
         return render(request,"login.html")
